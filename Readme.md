@@ -3,3 +3,8 @@ It is an spring boot application with hsqldb which is in memory. We can configur
 
 To run the service use the following command:
 mvn spring-boot:run
+
+account list service: /accounts/list
+transaction for account: /transaction/{accountNumber}
+
+for invalid accountNumber you will get empty response
